@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.conversion-container {
+    width: 900px;
+    margin: auto;
+    padding: 10px 25px 30px;
+    position: relative;
+    background-color: white;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    width: 85px;
+    height: 75px;
+    object-fit: contain;
+}
+
+h1 {
+    color: #4d6f9f;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 15px 0 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+th, td {
+    border: 1px solid #777;
+    padding: 5px 10px;
+}
+
+.yellow th {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+
+}
+
+td:nth-child(2),
+td:nth-child(5) {
+    text-align: center;
+    width: 25px;
+}
+
+td:nth-child(1),
+td:nth-child(4) {
+    width: 210px;
+}
+
+.footer {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
+}
+
+.footer img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.footer h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+    font-family: "Comic Sans MS", cursive;
+}
+ 

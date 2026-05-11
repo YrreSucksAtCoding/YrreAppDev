@@ -1,0 +1,19 @@
+.activity3 {
+    width: 900px;
+    margin: 60px auto;
+    font-family: Arial, sans-serif;
+}
+
+.activity3 h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.combination-box {
+    border: 2px solid #8dbb73;
+    padding: 25px;
+    font-size: 26px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}

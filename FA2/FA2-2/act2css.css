@@ -1,0 +1,76 @@
+.activity2 {
+    width: 900px;
+    margin: 60px auto;
+    font-family: Arial, sans-serif;
+}
+
+.activity2 h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.sample-box {
+    border: 2px solid #8dbb73;
+    height: 430px;
+    padding-top: 105px;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+
+.name-card {
+    border: 2px solid #8dbb73;
+    width: 470px;
+    padding: 12px 20px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-left: 0;
+}
+
+.bottom-row {
+    display: flex;
+    gap: 45px;
+    margin-left: 120px;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+
+.rank-card,
+.grade-card {
+    border: 2px solid #8dbb73;
+    width: 135px;
+    height: 145px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.rank-card p,
+.grade-card p {
+    margin: 0;
+}
+
+.rank-card span,
+.grade-card span {
+    display: block;
+    margin-top: 8px;
+    font-size: 32px;
+}
+
+.picture-card {
+    border: 2px solid #8dbb73;
+    width: 215px;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-card img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+ 
